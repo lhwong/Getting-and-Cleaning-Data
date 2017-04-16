@@ -10,7 +10,7 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-Unzip the zip file into the folder and place the R script run_analysis.R into the same folder. Load the R script.
+Unzip the zip file into the folder and place the R script run_analysis.R into the same folder. Load the R script using ```source("run_analysis.R")```.
 
 
 The R script does the following steps:
@@ -49,13 +49,13 @@ The tidy data is stored in file named average_by_activity_subject.txt.
 The following R script can be executed in R Studio to read in and view the tidy data set. 
  
 ```
-address <- "https://s3.amazonaws.com/coursera-uploads/user-longmysteriouscode/asst-3/massivelongcode.txt"
+address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/9c8fecc643cf1cbe03b420e3f0441983/average_by_activity_subject.txt"
 address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE) 
 View(data)
 ```
 
-See the codebook.txt file which contains the codebook for the tidy data set.
+Please see the codebook.txt file which contains the codebook for the tidy data set.
 
 
 
