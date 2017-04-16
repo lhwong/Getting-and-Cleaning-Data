@@ -1,0 +1,212 @@
+Data Dictionary
+
+activity	18
+	Activity label
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
+subject		2
+	Identifier of the subject who carried out the experiment.
+		1..30 .Subject identifier
+
+tbodyacc.mean.x	9
+	The average of mean of body acceleration time domain signals in X direction
+
+tbodyacc.mean.y 12
+	The average of mean of body acceleration time domain signals in Y direction
+
+tbodyacc.mean.z	11
+	The average of mean of body acceleration time domain signals in Z direction
+
+tbodyacc.std.x	12
+	The average of standard deviation of body acceleration time domain signals in X direction
+
+tbodyacc.std.y	12
+	The average of standard deviation of body acceleration time domain signals in Y direction
+
+tbodyacc.std.z	11
+	The average of standard deviation of body acceleration time domain signals in Z direction
+
+tgravityacc.mean.x	11
+	The average of mean of gravity acceleration time domain signals in X direction
+
+tgravityacc.mean.y	12
+	The average of mean of gravity acceleration time domain signals in Y direction
+
+tgravityacc.mean.z	12
+	The average of mean of gravity acceleration time domain signals in Z direction
+
+tgravityacc.std.x	10
+	The average of standard deviation of gravity acceleration time domain signals in X direction
+
+tgravityacc.std.y	10
+	The average of standard deviation of gravity acceleration time domain signals in Y direction
+
+tgravityacc.std.z
+	The average of standard deviation of gravity acceleration time domain signals in Z direction
+
+tbodyaccjerk.mean.x
+	The average of mean of Jerk signals derived from the body acceleration time domain signals in X direction
+
+tbodyaccjerk.mean.y
+	The average of mean of Jerk signals derived from the body acceleration time domain signals in Y direction
+
+tbodyaccjerk.mean.z
+	The average of mean of Jerk signals derived from the body acceleration time domain signals in Z direction
+
+tbodyaccjerk.std.x
+	The average of standard deviation of Jerk signals derived from the body acceleration time domain signals in X direction
+
+tbodyaccjerk.std.y
+	The average of standard deviation of Jerk signals derived from the body acceleration time domain signals in Y direction
+
+tbodyaccjerk.std.z
+	The average of standard deviation of Jerk signals derived from the body acceleration time domain signals in Z direction
+
+tbodygyro.mean.x
+	The average of mean of body gyroscope time domain signals in X direction
+
+tbodygyro.mean.y
+	The average of mean of body gyroscope time domain signals in Y direction
+
+tbodygyro.mean.z
+	The average of mean of body gyroscope time domain signals in Z direction
+
+tbodygyro.std.x
+	The average of standard deviation of body gyroscope time domain signals in X direction
+
+tbodygyro.std.y
+	The average of standard deviation of body gyroscope time domain signals in Y direction
+
+tbodygyro.std.z
+	The average of standard deviation of body gyroscope time domain signals in Z direction
+
+tbodygyrojerk.mean.x
+	The average of mean of Jerk signals derived from the body gyroscope time domain signals in X direction
+
+tbodygyrojerk.mean.y
+	The average of mean of Jerk signals derived from the body gyroscope time domain signals in Y direction
+
+tbodygyrojerk.mean.z
+	The average of mean of Jerk signals derived from the body gyroscope time domain signals in Z direction
+
+tbodygyrojerk.std.x
+	The average of standard deviation of Jerk signals derived from the body gyroscope time domain signals in X direction
+
+tbodygyrojerk.std.y
+	The average of standard deviation of Jerk signals derived from the body gyroscope time domain signals in Y direction
+
+tbodygyrojerk.std.z
+	The average of standard deviation of Jerk signals derived from the body gyroscope time domain signals in Z direction
+
+tbodyaccmag.mean
+	The average of mean of the magnitude of the body acceleration time domain signals in the Euclidean norm
+
+tbodyaccmag.std
+	The average of standard deviation of the magnitude of the body acceleration time domain signals in the Euclidean norm
+
+tgravityaccmag.mean
+	The average of mean of the magnitude of the gravity acceleration time domain signals in the Euclidean norm
+
+tgravityaccmag.std
+	The average of standard deviation of the magnitude of the gravity acceleration time domain signals in the Euclidean norm
+
+tbodyaccjerkmag.mean
+	The average of mean of the magnitude of Jerk signals derived from the body acceleration time domain signals in the Euclidean norm
+
+tbodyaccjerkmag.std
+	The average of standard deviation of the magnitude of Jerk signals derived from the body acceleration time domain signals in the Euclidean norm  
+
+tbodygyromag.mean
+	The average of mean of the magnitude of the body gyroscope time domain signals in the Euclidean norm
+
+tbodygyromag.std
+	The average of standard deviation of the magnitude of the body gyroscope time domain signals in the Euclidean norm
+
+tbodygyrojerkmag.mean
+	The average of mean of the magnitude of Jerk signals derived from the body gyroscope time domain signals in the Euclidean norm
+
+tbodygyrojerkmag.std
+	The average of standard deviation of the magnitude of Jerk signals derived from the body gyroscope time domain signals in the Euclidean norm
+
+fbodyacc.mean.x
+	The average of mean of body acceleration frequency domain signals in X direction
+
+fbodyacc.mean.y
+	The average of mean of body acceleration frequency domain signals in Y direction
+
+fbodyacc.mean.z
+	The average of mean of body acceleration frequency domain signals in Z direction
+
+fbodyacc.std.x
+	The average of standard deviation of body acceleration frequency domain signals in X direction
+
+fbodyacc.std.y
+	The average of standard deviation of body acceleration frequency domain signals in Y direction
+
+fbodyacc.std.z
+	The average of standard deviation of body acceleration frequency domain signals in Z direction
+
+fbodyaccjerk.mean.x
+	The average of mean of Jerk signals derived from the body acceleration frequency domain signals in X direction
+
+fbodyaccjerk.mean.y
+	The average of mean of Jerk signals derived from the body acceleration frequency domain signals in Y direction
+
+fbodyaccjerk.mean.z
+	The average of mean of Jerk signals derived from the body acceleration frequency domain signals in Z direction
+
+fbodyaccjerk.std.x
+	The average of standard deviation of Jerk signals derived from the body acceleration frequency domain signals in X direction
+
+fbodyaccjerk.std.y
+	The average of standard deviation of Jerk signals derived from the body acceleration frequency domain signals in Y direction
+
+fbodyaccjerk.std.z
+	The average of standard deviation of Jerk signals derived from the body acceleration frequency domain signals in Z direction
+
+fbodygyro.mean.x
+	The average of mean of body gyroscope frequency domain signals in X direction
+
+fbodygyro.mean.y
+	The average of mean of body gyroscope frequency domain signals in Y direction
+
+fbodygyro.mean.z
+	The average of mean of body gyroscope frequency domain signals in Z direction
+
+fbodygyro.std.x
+	The average of standard deviation of body gyroscope frequency domain signals in X direction
+
+fbodygyro.std.y
+	The average of standard deviation of body gyroscope frequency domain signals in Y direction
+
+fbodygyro.std.z
+	The average of standard deviation of body gyroscope frequency domain signals in Z direction
+
+fbodyaccmag.mean
+	The average of mean of the magnitude of the body acceleration frequency domain signals in the Euclidean norm
+
+fbodyaccmag.std
+	The average of standard deviation of the magnitude of the body acceleration frequency domain signals in the Euclidean norm
+
+fbodybodyaccjerkmag.mean
+	The average of mean of the magnitude of Jerk signals derived from the body acceleration frequency domain signals in the Euclidean norm
+
+fbodybodyaccjerkmag.std
+	The average of standard deviation of the magnitude of Jerk signals derived from the body acceleration frequency domain signals in the Euclidean norm  
+
+fbodybodygyromag.mean
+	The average of mean of the magnitude of the body gyroscope frequency domain signals in the Euclidean norm
+
+fbodybodygyromag.std
+	The average of standard deviation of the magnitude of the body gyroscope frequency domain signals in the Euclidean norm
+
+fbodybodygyrojerkmag.mean
+	The average of mean of the magnitude of Jerk signals derived from the body gyroscope frequency domain signals in the Euclidean norm
+
+fbodybodygyrojerkmag.std
+	The average of standard deviation of the magnitude of Jerk signals derived from the body gyroscope frequency domain signals in the Euclidean norm
